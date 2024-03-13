@@ -21,7 +21,11 @@
         </div>
         <div class="card-body">
             <div class="card-text text-center">
-                {{ config('app.name') }}
+                @auth
+                    <a
+                    class="btn btn-secondary "
+                    href="{{route('admin.index')}}">Admin</a>
+                @endauth
             </div>
         </div>
         <div class="card-footer">

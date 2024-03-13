@@ -33,8 +33,8 @@
                             <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown"
                                 aria-haspopup="true" aria-expanded="false">Options</a>
                             <div class="dropdown-menu" aria-labelledby="dropdownId">
-                                <a class="dropdown-item" href="#">First&nbsp; Option</a>
-                                <a class="dropdown-item" href="#">Second Option</a>
+                                <a class="dropdown-item" href="{{ route('admin.index') }}">Admin</a>
+                                <a class="dropdown-item" href="{{ route('user.index') }}">User</a>
                             </div>
                         </li>
                     @else
