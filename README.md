@@ -1,6 +1,4 @@
-Aquí tienes el contenido corregido y refactorizado para el README del middleware en Laravel 11:
 
----
 
 ## Adding Data to the Users Migration
 
